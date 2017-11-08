@@ -1,5 +1,5 @@
 <?php
 
   echo '<br/>';
-  echo 'Another page!!!'
+  echo '<strong>Another page!!!</strong>'
   echo '<br/>';
