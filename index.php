@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset=utf-8 />
-<title>JS Bin</title>
+<title>..::Gary's Page::..</title>
   <script type="text/javascript">
     var index=0;
     function changeBanner(){ 
