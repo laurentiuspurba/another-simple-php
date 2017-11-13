@@ -9,13 +9,14 @@
       [].forEach.call(document.images,function (v,i) { document.images[i].hidden = i!==index});
       index = (index+1) % document.images.length;
     }
-    window.onload = function () {setInterval(changeBanner, 1000)};
+    window.onload = function () {setInterval(changeBanner, 2000)};
   </script>
 </head>
 <body>
+  <?php echo '<strong><h1>Another page!!!</h1></strong>'; ?>
   <div id="wrapper">
     <div>
-        <img src="images/1.jpeg" />
+      <img src="images/1.jpeg" />
       <img src="images/2.jpeg" />
       <img src="iamges/3.jpeg" />
     </div>
@@ -25,9 +26,9 @@
 
 <?php
 
-  echo '<br/>';
-  echo '<strong><h1>Another page!!!</h1></strong>';
-  echo '<br/>';
+  //echo '<br/>';
+  //echo '<strong><h1>Another page!!!</h1></strong>';
+  //echo '<br/>';
 
   /*
   $dir = './images/*.jpeg';
