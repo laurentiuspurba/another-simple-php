@@ -9,5 +9,5 @@
 
   foreach($images as $image) {
     echo "<img src='" . $image . "' />";
-    sleep(2);
+    sleep(8);
   }
