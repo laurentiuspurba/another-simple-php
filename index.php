@@ -9,7 +9,7 @@
       [].forEach.call(document.images,function (v,i) { document.images[i].hidden = i!==index});
       index = (index+1) % document.images.length;
     }
-    window.onload = function () {setInterval(changeBanner, 2000)};
+    window.onload = function () {setInterval(changeBanner, 1000)};
   </script>
 </head>
 <body>
@@ -36,6 +36,5 @@
 
   foreach($images as $image) {
     echo "<img src='" . $image . "' />";
-    sleep(8);
   }
   */
